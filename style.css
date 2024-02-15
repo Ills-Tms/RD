@@ -29,6 +29,10 @@ nav a:hover {
   background-color: grey;
 }
 
+#menulabel {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 600px) {
   nav a {
     font-size: 22px;
