@@ -29,15 +29,13 @@ nav a {
   padding: 2px 10px;
 }
 
-#menu {
-  display: none;
-}
+
 
 nav a:hover {
   background-color: grey;
 }
 
-#menulabel {
+#menulabel,#menu {
   cursor: pointer;
   display: none;
 }
@@ -59,7 +57,7 @@ nav a:hover {
   body {
     padding-top: 0px;
   }
-  #menulabe{
+  #menulabel{
     position: fixed;
     bottom: 0%;
     height: 50px;
@@ -68,6 +66,8 @@ nav a:hover {
     justify-content: center;
     display: flex;
     color: aliceblue;
+    width: 100%;
+    font-size: larger;
 
   }
 
