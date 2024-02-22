@@ -39,6 +39,7 @@ nav a:hover {
 
 #menulabel {
   cursor: pointer;
+  display: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -52,12 +53,24 @@ nav a:hover {
   nav {
     flex-direction: column;
     height: auto;
-    bottom: 0%;
+    bottom: 50px;
     top: auto;
   }
   body {
     padding-top: 0px;
   }
+  #menulabe{
+    position: fixed;
+    bottom: 0%;
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: aliceblue;
+
+  }
+
 }
 
 body:has(#menu:checked) {
