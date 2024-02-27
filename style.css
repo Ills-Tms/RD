@@ -5,6 +5,7 @@
 body {
   margin: 0%;
   padding-top: 60px;
+  background-color: rgb(102, 102, 102);
 }
 
 nav {
@@ -29,13 +30,12 @@ nav a {
   padding: 2px 10px;
 }
 
-
-
 nav a:hover {
   background-color: grey;
 }
 
-#menulabel,#menu {
+#menulabel,
+#menu {
   cursor: pointer;
   display: none;
 }
@@ -57,7 +57,7 @@ nav a:hover {
   body {
     padding-top: 0px;
   }
-  #menulabel{
+  #menulabel {
     position: fixed;
     bottom: 0%;
     height: 50px;
@@ -68,9 +68,7 @@ nav a:hover {
     color: aliceblue;
     width: 100%;
     font-size: larger;
-
   }
-
 }
 
 body:has(#menu:checked) {
