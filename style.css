@@ -82,6 +82,6 @@ nav a:hover {
   }
 }
 
-body:has(#menu:checked) {
+body:has(#menucheckbox:checked) {
   --bottom-menu-bottom-position: 50px;
 }
