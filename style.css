@@ -3,10 +3,12 @@
 }
 
 body {
-  margin: 0%;
-  padding-top: 60px;
   background-color: rgb(21, 23, 48);
   color: rgb(238, 238, 238);
+}
+html {
+  margin: 0;
+  padding-top: 60px;
 }
 
 nav {
@@ -20,6 +22,7 @@ nav {
   display: var(--menu-display);
   align-items: center;
   justify-content: center;
+  left: 0;
 }
 
 nav a {
@@ -55,8 +58,9 @@ nav a:hover {
     bottom: 50px;
     top: auto;
   }
-  body {
+  html {
     padding-top: 0px;
+    padding-bottom: 50px;
   }
   #menulabel {
     position: fixed;
@@ -69,6 +73,7 @@ nav a:hover {
     color: aliceblue;
     width: 100%;
     font-size: larger;
+    left: 0;
   }
 }
 
