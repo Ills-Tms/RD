@@ -39,10 +39,10 @@ nav a:hover {
   background-color: grey;
 }
 
-#menucheckbox {
+#menuCheckBox {
   display: none;
 }
-#menulabel {
+#menuLabel {
   cursor: pointer;
   display: none;
 }
@@ -67,7 +67,7 @@ nav a:hover {
     padding-top: 0px;
     padding-bottom: 50px;
   }
-  #menulabel {
+  #menuLabel {
     position: fixed;
     bottom: 0%;
     height: 50px;
@@ -82,6 +82,6 @@ nav a:hover {
   }
 }
 
-body:has(#menucheckbox:checked) {
+body:has(#menuCheckBox:checked) {
   --bottom-menu-bottom-position: 50px;
 }
