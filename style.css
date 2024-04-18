@@ -11,6 +11,27 @@ html {
   padding-top: 60px;
 }
 
+#picContainer {
+  display: flex;
+  justify-content: center;
+}
+#gombok {
+  text-decoration: none;
+  font-size: larger;
+  color: rgb(151, 149, 147);
+}
+#gombtar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#jobbgombok {
+  direction: rtl;
+  text-decoration: none;
+  font-size: larger;
+  color: rgb(151, 149, 147);
+}
+
 nav {
   background-color: rgb(49, 42, 73);
   padding: 5px 0px;
