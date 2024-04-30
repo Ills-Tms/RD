@@ -1,13 +1,14 @@
 console.log("kjsjdrf")
 const container = document.querySelector("#container")
-const tomb = ["alma", "körte", "kutya", "macska"]
+const targetImg = document.querySelector("#targetImg")
+const kepek = ["kutya.webp", "macska.jpg", "delfin.png"]
 
-let ize = document.createElement("div")
-ize.innerText = "blablablablabla"
-container.appendChild(ize)
-
-for (const element of tomb) {
-  let tDiv = document.createElement("div")
-  tDiv.innerText = element
-  container.appendChild(tDiv)
+for (const kep of kepek) {
+  img = document.createElement("img")
+  img.src = "img/" + kep
+  img.width = "200"
+  container.appendChild(img)
+  img.addEventListener("click", function () {
+    targetImg.src = this.src
+  })
 }
